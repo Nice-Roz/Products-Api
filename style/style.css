@@ -1,0 +1,36 @@
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+.product{
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid #dfdedec3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.product img{
+    width: 200px;
+    height: 200px;
+}
+
+.product .content{
+    padding: 10px;
+}
+.product .btn-trash{
+    background: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    margin-top: -200px;
+}
+.bottom-meta-data , .top-meta-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
